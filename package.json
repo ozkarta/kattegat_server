@@ -1,0 +1,25 @@
+{
+  "name": "kattegat_server",
+  "version": "1.0.0",
+  "description": "Kattegat Server REST API  ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozkarta/kattegat_server.git"
+  },
+  "author": "ozkarta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozkarta/kattegat_server/issues"
+  },
+  "homepage": "https://github.com/ozkarta/kattegat_server#readme",
+  "dependencies": {
+    "body-parser":"1.17.1",
+    "express":"4.15.2",
+    "ws":"2.3.1",
+    "mongoose":"4.9.6"
+  }
+}
